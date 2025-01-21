@@ -333,7 +333,7 @@ juju deploy hacluster \
 Deploy the package customization charm:
 
 ```bash
-juju deploy --base ubuntu@24.04/stable package-customization
+juju deploy --base ubuntu@24.04/stable package-customization magnum-package-customization
 juju config package-customization \
     packages="python3-magnum-cluster-api,magnum-api,magnum-common,magnum-conductor,python3-magnum" \
     ppa="ppa:gabriel-samfira/magnum-cluster-api"
